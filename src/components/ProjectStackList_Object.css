@@ -1,0 +1,27 @@
+
+ .card p{
+    color: rgb(137, 147, 164);
+    font-size: 12px;
+    line-height: 1.2;
+    margin-bottom: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-clamp: 2;
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical;
+} 
+
+
+
+/* Image Card */
+ .image-div{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: rgb(129, 218, 253);
+    width: 100%;
+    height: 150px;
+
+    z-index: 5;
+}
